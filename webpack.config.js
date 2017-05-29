@@ -5,11 +5,11 @@ var DashboardPlugin = require('webpack-dashboard/plugin');
 module.exports = {
 
 	entry: {
-		app: './public/app/App.js'
+		app: './src/App.js'
 	},
 	output: {
-		filename: 'public/build/bundle.js',
-        sourceMapFilename: 'public/build/bundle.map'
+		filename: 'build/bundle.js',
+        sourceMapFilename: 'build/bundle.map'
 	},
 	devtool: '#source-map',
 	plugins: [
