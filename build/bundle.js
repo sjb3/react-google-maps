@@ -54,6 +54,8 @@
 	
 	var _reactDom = __webpack_require__(36);
 	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -77,11 +79,7 @@
 	            return _react2.default.createElement(
 	                'div',
 	                null,
-	                _react2.default.createElement(
-	                    'h1',
-	                    null,
-	                    'React + Google Map'
-	                )
+	                'React + Google Map'
 	            );
 	        }
 	    }]);
@@ -89,7 +87,7 @@
 	    return App;
 	}(_react.Component);
 	
-	ReactDOM.render(_react2.default.createElement(App, null), document.getElementById('app'));
+	_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('app'));
 
 /***/ },
 /* 1 */
