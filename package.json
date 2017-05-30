@@ -19,7 +19,8 @@
   "homepage": "https://github.com/sjb3/react-google-maps#readme",
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-google-maps": "^6.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

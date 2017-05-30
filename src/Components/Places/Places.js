@@ -1,12 +1,12 @@
-'use strict';
+// 'use strict';
 
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
-export class Places extends Component  {
-  render() {
-    return (
-      <div>This is Places component</div>
+// export class Places extends Component  {
+//   render() {
+//     return (
+//       <div>This is Places component</div>
 
-    )
-  }
-}
+//     )
+//   }
+// }
